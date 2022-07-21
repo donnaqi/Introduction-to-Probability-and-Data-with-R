@@ -13,7 +13,9 @@ Skewness:
 - Symmetric 
 - Right skewed (Positive skew)
 
-<img src= "https://sigmamagic.com/blogs/images/skewness.jpg">
+<div align="center">
+<img src= "https://sigmamagic.com/blogs/images/skewness.jpg" width=60%>
+</div>
 
 Modality:
 - Unimodal: 
@@ -30,6 +32,8 @@ Modality:
 
 ## 3. Three commonly used measures of center and spread: 
 
+</br>
+
 ### Center
 Mean: arithmetic average <br>
 Median: midpoint of the distribution (50th percentile) <br>
@@ -37,7 +41,11 @@ Mode: most frequent observation <br>
 
 Sample statistics are point estimates for the unknown population parameters:
 
-<img src="https://media.cheggcdn.com/media/7ac/7ac1a812-3b41-4873-8413-b6a7b8fab530/CL-26481V_image_006.png">
+<div align="center">
+<img src="https://media.cheggcdn.com/media/7ac/7ac1a812-3b41-4873-8413-b6a7b8fab530/CL-26481V_image_006.png" width=70% align=center>
+</div>
+
+</br>
 
 Skewness vs Center:
 - left skewed: mean < median
@@ -48,7 +56,9 @@ Skewness vs Center:
     - few high valued observations pulled the average up
     - more than 50% of the data will be smaller than the mean
 
-<img src="https://researchhubs.com/uploads/skewness-vs-measures-of-center.png">
+<div align="center">
+<img src="https://researchhubs.com/uploads/skewness-vs-measures-of-center.png" width=60%>
+</div>
 
 ### Spread
 - Range: max - min
@@ -70,14 +80,18 @@ Skewness of a distribution from a box plot:
 - The peak of the distribution will be roughly around the median
 - The tails will extend out to the tails in the box plot 
 
-<img src="https://researchhubs.com/uploads/skewness-by-boxplot.png">
+<div align="center">
+<img src="https://researchhubs.com/uploads/skewness-by-boxplot.png" width=60%>
+</div>
 
 
 Intensity Map:
 - useful to view the spatial distribution
 - i.e. income are low in Africa, and high in North America
+<div align="center">
+<img src="https://researchhubs.com/uploads/intensity-map.png" width=60%>
+</div>
 
-<img src="https://researchhubs.com/uploads/intensity-map.png">
 
 ## 6. Robust statistic
 Define a robust statistic (e.g. median, IQR) as a statistic that is not heavily affected by skewness and extreme outliers, and determine when such statistics are more appropriate measures of center and spread compared to other similar statistics. 
@@ -101,6 +115,7 @@ goals of transformation:
 - want to see the data structure a little differently
 - want to reduce skew to assist in modeling 
 - want to straighten a nonlinear relationship in a scatterplot <br>
+</br>
 
 # Categorical Data
 
@@ -114,44 +129,52 @@ goals of transformation:
     - categorical variables
     - categories can be listed in any order
 
-
-<img src="https://images.squarespace-cdn.com/content/v1/55b6a6dce4b089e11621d3ed/1611927253487-DBQTE8U444SZJ9AZAAVO/Differences+between+histograms+and+bar+charts.jpg">
+<div align="center">
+<img src="https://images.squarespace-cdn.com/content/v1/55b6a6dce4b089e11621d3ed/1611927253487-DBQTE8U444SZJ9AZAAVO/Differences+between+histograms+and+bar+charts.jpg" width=60%>
+</div>
 
 
 - Pie chart: (don't use)
     - only show relative ordering, but not tell actual percentage
     - when have many categorical variable with similar relative frequencies, hard to determine which is higher
 
-<img src="https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/image09-21.png?strip=all&lossy=1&ssl=1">
-
+<div align="center">
+<img src="https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/image09-21.png?strip=all&lossy=1&ssl=1" width=40%>
+</div>
 
 ## 2. Use contingency tables and segmented bar plots or mosaic plots to assess the relationship between two categorical variables. 
 
 - Contigency table: 
     - find the relationship is dependent or not
 
-<img src="https://www.softschools.com/math/probability_and_statistics/images/contingency_table_1.png">
+<div align="center">
+<img src="https://www.softschools.com/math/probability_and_statistics/images/contingency_table_1.png" width=60%>
+</div>
 
 - Segmented bar plots: 
     - useful for visualizing conditional frequency distributions
     - compare relative frequencies to explore the relationship between variables
-
-<img src="https://chartio.com/assets/9bfb20/tutorials/charts/stacked-bar-charts/073137bf11f1c2226f68c3188128e28d66115622dcdecc9bc208a6d4117f53e8/stacked-bar-example-1.png">
+<div align="center">
+<img src="https://chartio.com/assets/9bfb20/tutorials/charts/stacked-bar-charts/073137bf11f1c2226f68c3188128e28d66115622dcdecc9bc208a6d4117f53e8/stacked-bar-example-1.png" width=60%>
+</div>
 
 - Relative frequency segmented bar plots:
     - plot percentage frequancy
     - segments in each bar add up to 100%
-
-<img src="https://www.statisticshowto.com/wp-content/uploads/2013/01/stacked-bar-chart.gif">
+<div align="center">
+<img src="https://www.statisticshowto.com/wp-content/uploads/2013/01/stacked-bar-chart.gif" width=60%>
+</div>
 
 - Mosaic plots:
     - width of the bars: marginal distrubution of x-axis
     - length of the segments: proportion of y-axis
-
-<img src="https://www.jmp.com/en_us/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot/_jcr_content/par/styledcontainer_2069/par/image_1626416986.img.png/1597772672874.png">
+<div align="center">
+<img src="https://www.jmp.com/en_us/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot/_jcr_content/par/styledcontainer_2069/par/image_1626416986.img.png/1597772672874.png" width=60%>
+</div>
 
 ## 3. Use side-by-side box plots for assessing the relationship between a numerical and a categorical variable. 
 
 comparing the distribution of a numerical variable across the levels of a categorical variable
-
-<img src= "https://d2vlcm61l7u1fs.cloudfront.net/media%2Fb04%2Fb043b3eb-65ba-4b7b-997b-1a4b7fd32697%2FphpXIZUxE.png">
+<div align="center">
+<img src= "https://d2vlcm61l7u1fs.cloudfront.net/media%2Fb04%2Fb043b3eb-65ba-4b7b-997b-1a4b7fd32697%2FphpXIZUxE.png" width=60%>
+</div>
