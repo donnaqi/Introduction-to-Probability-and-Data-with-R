@@ -51,13 +51,29 @@ P(A or B) = P(A) + P(B) - P(A and B)
 
 If A and B are independent, then having information on A does not tell us anything about B (and vice versa).
 
-If A and B are disjoint, then knowing that A occurs tells us that B cannot occur (and vice versa).
+i.e. Outcomes of two coin tosses are said to be independent.
 
-Disjoint (mutually exclusive) events are always dependent since if one event occurs we know the other one cannot.
+General rule to check for indenpendence:
+```
+P(A | B) = P(A), then A & B are independent since 'given B' has no effect on probability of A
+```
 
-## 5. Venn diagrams
+If A and B are disjoint (mutually exclusive), then knowing that A occurs tells us that B cannot occur (and vice versa).
 
-## 6. Probability distribution 
+```
+P(A & B) = 0, then A & B are disjoint since the A and B can't happen at the same time
+```
+
+Disjoint events are always dependent since if one event occurs we know the other one cannot.
+
+i.e. outcomes of two draws from a deck of cards, without replacement are dependent
+
+
+<div align="center">
+<img src= "https://keydifferences.com/wp-content/uploads/2016/05/mutually-exclusive-vs-independent-event.jpg">
+</div>
+
+## 5. Probability distribution 
 
 list of the possible outcomes with corresponding probabilities that satisfies three rules: 
 
@@ -67,7 +83,7 @@ Each probability must be between 0 and 1.
 
 The probabilities must total 1.
 
-## 7. Complementary outcomes 
+## 6. Complementary outcomes 
 complementary outcomes  : mutually exclusive outcomes of the same random process whose probabilities add up to 1 
 
 If A and B are complementary, P(A) + P(B) = 1
@@ -76,17 +92,49 @@ Complimentary events are always necessarily disjoined
 
 Disjoined events are not necessarily always complimentary
 
-## 8. Distinguish between union of events (A or B) and intersection of events (A and B).
+## 7. Distinguish between union of events (A or B) and intersection of events (A and B).
 
 Calculate the probability of union of events using the (general) addition rule:
 
-    If A and B are not mutually exclusive, P(A or B) = P(A) + P(B) − P(A and B) 
+If A and B are not mutually exclusive:
+```
+P(A or B) = P(A) + P(B) − P(A and B) 
+```
 
-    If A and B are mutually exclusive, P (A or B) = P (A) + P (B), since for mutually exclusive events P(A and B) = 0 
+If A and B are mutually exclusive:
+```
+P (A or B) = P (A) + P (B), since for mutually exclusive events P(A and B) = 0 
+```
 
 Calculate the probability of intersection of independent events using the multiplication rule:
 
-    If A and B are independent, P(A and B) = P(A) × P(B) 
+If A and B are independent:
+```
+P(A and B) = P(A) × P(B) 
+```
 
-    If A and B are dependent, P(A and B) = P(A|B) × P(B) 
+If A and B are dependent:
+```
+P(A and B) = P(A|B) × P(B) 
+```
 
+# Conditional Probability
+
+## 1. Marginal vs Conditional probabilities
+
+Marginal Probabilities:
+
+
+Conditional Probabilities:
+
+
+## 2. Tree diagrams 
+to calculate conditional probabilities and probabilities of intersection of non-independent 
+Bayes’ theorem: P(A|B) = P(A and B) / P(B)
+
+- Setting a prior
+- Collecting data
+- obtaining a posterior
+- Updating the prior with the previous posterior
+
+​
